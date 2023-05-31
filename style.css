@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=spartan:wght@100;200;300;400;500;600;700;800;900&display=swap')
+#logo {
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    float: none;
+    height: 60px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+  }
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing : border-box ;
+    font-family:'spartan',sans-serif;
+ }
+ h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color : black;
+    text-align: center;
+
+ }
+ h2 {
+
+    font-size:46px;
+    line-height:54px;
+    color :black;
+
+ }
+ h4 {
+    font-size:20px;
+    color :black;
+ }
+ h6 {
+    font-weight:700;
+    font-size:12px;
+    
+ }
+ p {
+    font-size:16px;
+    color :#465b52;
+    margin:15px 0 20px 0;
+
+ }
+ .section-p1 {
+    padding: 75px 350px ;
+ }
+ .section-m1 {
+   margin:10px 0 ;
+ }
+ button.normal{
+   font-size: 14px;
+   font-weight: 600;
+   padding :15px 30px;
+   color: black;
+   background-color: white;
+   border-radius: 4px;
+   cursor: pointer;
+   border : none;
+   outline : none ;
+
+ }
+ body{
+    width: 100%;
+ }
+
+ #header{
+    display : flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 70px ;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+ }
+ #navbar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px 700px;
+    
+ }
+ #navbar li{
+  list-style: none;
+  padding:0px 20px ;
+ }
+ #navbar li a{
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 600;
+   color: #1a1a1a; 
+   transition: 0.2s ease;
+
+ }
+ #navbar li :hover{
+   color: #088175;
+ }
+
+
+ #navbar li a.active{
+   color: #088175;
+ }
+ #hero {
+ 
+      background-image: url('C:/Users/Happy/Desktop/website pics/Style.jpg');
+      background-size: cover;
+      background-position: top 10% right 0% ;
+      background-repeat: no-repeat;
+      height:90vh;
+      width:100%;
+      padding:0 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+   }
+   #hero2{
+      background-image: url('C:/Users/Happy/Desktop/website pics/How to Get Rid of Stinky Mold in Your Washing Machine.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height:30vh;
+      width:100%;
+      display: flex;
+      padding: 40px;
+      justify-content: center;
+      text-align: center;
+   }
+
+
+   
+   #feature .fe-box {
+      width: 100px;
+      text-align: center;
+      align-items: center;
+
+      padding: 25px 25px;
+      box-shadow: 50px 50px 68px rgba(0,0,0,0.06);
+      border: 1px solid #e3e6f3;
+
+   }
+   
+   #hero button {
+    background-image: url("C:/Users/Happy/Desktop/website pics/873bac23-f327-4268-91d4-991eeb88114f.jpg");
+    background-color: transparent;
+    color : rgb(247, 245, 241);
+   }
+   #feature{
+      display :flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+     
+   }
+  
+   #final{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-image: url("C:/Users/Happy/Desktop/website pics/873bac23-f327-4268-91d4-991eeb88114f.jpg");
+      width: 100% ;
+      height: 40vh;
+      background-size: cover;
+      background-position: center;
+
+
+   } 
+   #productwomen {
+   text-align: center;
+ }
+ 
+ #productwomen .women {
+   width: 14%;
+   min-width: 250px;
+   padding: 10px 12px;
+   border: 1px solid #a3aca4;
+   border-radius: 25px;
+   cursor: pointer;
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+   margin: 30px 10px;
+   position: relative;
+ }
+ 
+ #productwomen .pics .description h3 {
+   padding-top: 7px;
+   font-size: 15px;
+   font-weight: 700;
+   color: #088175;
+ }
+ 
+ #productwomen .pics img {
+   border-radius: 20px;
+ }
+ 
+ #productwomen .pics.cart {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 50px;
+   background-color: #e3e6f3;
+   font-size: 500;
+   color: #579690;
+   border: 1px solid #e3e6f3;
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
+ }
+ 
+  
+  
+   #final h4 {
+      color : rgb(16, 15, 15);
+      size : 16px; 
+   }
+   #foot a {
+      font-size: 15px;
+      color: rgb(76, 70, 70);
+      text-decoration: none;
+      display: block; /* Display the links as block elements */
+      margin-bottom: 10px; /* Add some space between the links */
+    }
+    #foot {
+      border-spacing:20px; /* Add space between the <td> elements */
+    }
+    #col1{
+      flex-grow: 1; /* Allow the first <td> to grow and take up remaining space */
+      flex-basis: 100%; /* Set the initial width of the first <td> to 100% */
+      margin-right: 10px; /* Add margin between the <td> elements */
+    }
+    
+  #col2{
+   flex-direction: column;
+   text-align: center;
+   align-items: flex-start;
+   margin-bottom: 20px;
+  }
+  #col3{
+   flex-direction: column;
+   text-align: center;
+   align-items: flex-start;
+   margin-bottom: 20px;
+  }
+  #in{
+   text-align: center;
+   align-items: center;
+   display: flex;
+   height:20vh;
+   padding: 20px;
+   justify-content: center;
+  }
+ #pagination{
+   text-align: center;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+ }
+ #pagination a{
+text-decoration: none;
+background-color: #45a049;
+padding: 15px 20px;
+border-radius: 4px;
+color: white;
+font-weight: 600;
+ }
+ #newsletter {
+   background-color: #f5f5f5;
+   padding: 20px;
+   text-align: center;
+   display: flex;
+  justify-content: flex-end;
+ }
+ 
+ #newsletter h4 {
+   font-size: 20px;
+ }
+ 
+ #newsletter p {
+   font-size: 14px;
+   margin-bottom: 10px;
+ }
+ 
+ #newsletter-form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 10px;
+ }
+ 
+ #email-input {
+   padding: 8px;
+   width: 250px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ #email-input:focus {
+   outline: none;
+ }
+ 
+ button {
+   padding: 8px 16px;
+   background-color: #4caf50;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #45a049;
+ }
+ 
+ #newsletter-message {
+   font-size: 14px;
+   color: #888;
+ }
+
+
+#about img{
+  width: 450px;
+  height: 400px;
+
+}
+#about{
+  padding-left: 40px;
+
+}
+#about td{
+  padding: 10px 30px;
+}
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"],#Subtotal button  {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+#cart table{
+  width :100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+#cart table img{
+  width :70px;
+}
+#cart table td:nth-child(1){
+  width:100px;
+  text-align: center;
+}
+#cart table td:nth-child(2){
+  width:150px;
+  text-align: center;
+}
+#cart table td:nth-child(3){
+  width:250px;
+  text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+  width:100px;
+  text-align: center;
+}
+#cart table td:nth-child(5) input {
+  width:70px;
+  padding: 10px 5px 10px 15px;
+}
+#cart table thead{
+  border:1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+
+}
+#Subtotal{
+  width:50%;
+  margin-bottom: 30px;
+  border :1px solid #e2e9e1 ;
+  padding:30px ;
+
+}
+#Subtotal table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+#Subtotal table td {
+  width :50px;
+  border :1px solid #e2e9e1 ;
+  padding: 10px;
+  font-size: 13px;
+
+}
